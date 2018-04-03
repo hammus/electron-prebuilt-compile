@@ -38,7 +38,7 @@
     "babel-preset-es2016-node5": "^1.1.2",
     "babel-preset-react": "^6.24.1",
     "electron": "2.0.0-beta.5",
-    "electron-compile": "https://github.com/hammus/electron-compiler",
+    "electron-compile": "https://github.com/hammus/electron-compile",
     "electron-compilers": "https://github.com/hammus/electron-compilers",
     "yargs": "^6.6.0"
   },
