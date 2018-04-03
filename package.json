@@ -8,7 +8,8 @@
   "main": "lib/main.js",
   "scripts": {
     "compile": "babel -d lib/ src/",
-    "prepublish": "npm run compile && cp ./node_modules/electron/electron.d.ts ."
+    "prepublish": "npm run compile && cp ./node_modules/electron/electron.d.ts .",
+    "prepare": "npm run compile && cp ./node_modules/electron/electron.d.ts ."
   },
   "repository": {
     "type": "git",
@@ -37,8 +38,8 @@
     "babel-preset-es2016-node5": "^1.1.2",
     "babel-preset-react": "^6.24.1",
     "electron": "2.0.0-beta.5",
-    "electron-compile": "*",
-    "electron-compilers": "*",
+    "electron-compile": "https://github.com/hammus/electron-compiler",
+    "electron-compilers": "https://github.com/hammus/electron-compilers",
     "yargs": "^6.6.0"
   },
   "devDependencies": {
